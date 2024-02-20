@@ -22,5 +22,17 @@ namespace Services
                 }
             }
         };
+
+        public static List<Helbed> GetFeaturedPlanets()
+        {
+            var random = new Random();
+            var ranomizedPlanets = helbeds.OrderBy(item => random.Next());
+
+            return ranomizedPlanets.Take(2).ToList();
+        }
+
+        public static List<Helbed> GetAllPlanets()
+            => helbeds;
+
     }
 }

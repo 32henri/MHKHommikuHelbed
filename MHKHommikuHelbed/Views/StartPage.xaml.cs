@@ -1,3 +1,5 @@
+using MHKHommikuHelbed;
+
 namespace Views;
 
 public partial class StartPage : ContentPage
@@ -7,8 +9,9 @@ public partial class StartPage : ContentPage
 		InitializeComponent();
 	}
 
-    private void Button_Clicked(object sender, EventArgs e)
-    {
+    private async void OnButtonClicked(object sender, EventArgs e)
 
+    {
+        await Navigation.PushAsync(new MainPage());
     }
 }

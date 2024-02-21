@@ -3,15 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Views.StartPage"
              Title="StartPage">
-    
+
     <Grid>
+        
+        <!--Cereal images-->
+        <Image
+            Source="cinipng.png"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            WidthRequest="150"
+            HeightRequest="150"
+            TranslationX="-156"
+            TranslationY="-300"/>
+        
+        <!--Background image-->
+        <Image
+        x:Name="backgroundImage"
+        Source="bowlofmilk.png"
+        Aspect="AspectFill"
+        HorizontalOptions="Start"/>
+        
+        <!--button-->
         <Button 
             Text="Vaata lähemalt"
             VerticalOptions="End"
             HorizontalOptions="Center"
             BackgroundColor="AliceBlue"
             TranslationY="-50"
-            Clicked="Button_Clicked"
+            Clicked="OnButtonClicked"
             FontSize="23"
             TextColor="Black"
             WidthRequest="190"

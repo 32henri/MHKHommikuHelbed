@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ak8i+XJStn6PFdy2vyeroV43hVHR46tji7OZZlXOHZl8R+41F+f11SI6V4KRsmOmYjrwpoHf9O4t/kUnzTc5GA==",
+  "dgSpecHash": "nNYwLHFje0ZsfRDBeyQ8Spy+XJB1rDfxbCXDEk1hlsU8jiNy2ounp+YK8mJ4y38cEE2yxyLJoSvY41T79ZwwVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\MHKhommikuhelbed\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj",
+  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbed1\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\opilane\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
@@ -18,6 +18,8 @@
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.maui.extensions\\6.0.541\\microsoft.maui.extensions.6.0.541.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.maui.graphics\\6.0.501\\microsoft.maui.graphics.6.0.501.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\6.0.501\\microsoft.maui.graphics.win2d.winui.desktop.6.0.501.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\microsoft.ui.xaml\\2.8.2\\microsoft.ui.xaml.2.8.2.nupkg.sha512",
+    "C:\\Users\\opilane\\.nuget\\packages\\microsoft.web.webview2\\1.0.1264.42\\microsoft.web.webview2.1.0.1264.42.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.3\\microsoft.windowsappsdk.1.1.3.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

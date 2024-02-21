@@ -7,34 +7,34 @@ build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MHKHommikuHelbed
-build_property.ProjectDir = C:\Users\opilane\source\repos\MHKhommikuhelbed\MHKHommikuHelbed\
+build_property.ProjectDir = C:\Users\opilane\source\repos\MHKHommikuHelbed1\MHKHommikuHelbed\
 
-[C:/Users/opilane/source/repos/MHKhommikuhelbed/MHKHommikuHelbed/App.xaml]
+[C:/Users/opilane/source/repos/MHKHommikuHelbed1/MHKHommikuHelbed/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/opilane/source/repos/MHKhommikuhelbed/MHKHommikuHelbed/AppShell.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.AppShell.xaml
-build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
-build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
-
-[C:/Users/opilane/source/repos/MHKhommikuhelbed/MHKHommikuHelbed/MainPage.xaml]
+[C:/Users/opilane/source/repos/MHKHommikuHelbed1/MHKHommikuHelbed/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/opilane/source/repos/MHKhommikuhelbed/MHKHommikuHelbed/Resources/Styles/Colors.xaml]
+[C:/Users/opilane/source/repos/MHKHommikuHelbed1/MHKHommikuHelbed/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/opilane/source/repos/MHKhommikuhelbed/MHKHommikuHelbed/Resources/Styles/Styles.xaml]
+[C:/Users/opilane/source/repos/MHKHommikuHelbed1/MHKHommikuHelbed/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/opilane/source/repos/MHKHommikuHelbed1/MHKHommikuHelbed/Views/StartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.Views.StartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StartPage.xaml

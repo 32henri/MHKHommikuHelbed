@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Views.CerealInfo"
+             Title="CerealInfo">
+
+    <Grid
+        Margin="24,52,24,0"
+        ColumnDefinitions="*,*"
+        RowDefinitions="Auto,*">
+
+
+        <!--Main content scrollview-->
+
+        <ScrollView
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            HorizontalScrollBarVisibility="Never"
+            VerticalScrollBarVisibility="Never"
+            Margin="0,16,0,0">
+
+
+            <VerticalStackLayout
+            Spacing="18">
+
+                <!--Cereal Img-->
+                <Image
+                Source="{Binding HeroImage}"
+                Aspect="AspectFit"
+                HorizontalOptions="Fill"
+                HeightRequest="240"
+                Margin="24,0"/>
+
+                <!--Cereal name-->
+                <Label
+                Margin="0,-24,0,0"
+                Style="{StaticResource LableStyle}"
+                Text="{Binding Name}"/>
+
+                <!--Cereal info-->
+
+                <Label
+                LineBreakMode="WordWrap"
+                Style="{StaticResource LableStyle}"
+                Text="{Binding Description}"/>
+
+                <!--võiks mingi asi oolla mis eristaks-->
+
+                <!--Krõbuskite images-->
+
+                <Label
+                Style="{StaticResource LableStyle}"
+                Text="Pildid"/>
+
+
+            </VerticalStackLayout>
+
+        </ScrollView>
+
+    </Grid>
+
+</ContentPage>

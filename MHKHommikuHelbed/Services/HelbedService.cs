@@ -16,8 +16,8 @@ namespace Services
                 Description = "Description",
                 Images = new()
                 {
-                    "Image1.png",
-                    "Image2.png",
+                    "cinipng.png",
+                    "kit.png",
                     "Image3.png",
                 }
             },

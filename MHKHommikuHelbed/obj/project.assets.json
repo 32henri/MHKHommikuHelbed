@@ -25951,11 +25951,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbed2\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbed\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj",
       "projectName": "MHKHommikuHelbed",
-      "projectPath": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbed2\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj",
+      "projectPath": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbed\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbed2\\MHKHommikuHelbed\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbed\\MHKHommikuHelbed\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

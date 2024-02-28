@@ -3,25 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MHKHommikuHelbed.MainPage">
 
-
     <Grid>
-        <Grid>
-            <Grid.Background>
-                
-            </Grid.Background>
-        </Grid>
-        <Button 
-            Text="Nesquik"
-            VerticalOptions="End"
-            HorizontalOptions="Center"
-            BackgroundColor="AliceBlue"
-            TranslationY="-50"
-            Clicked="OnButtonClickedCereal"
-            FontSize="23"
-            TextColor="Black"
-            WidthRequest="190"
-            HeightRequest="70"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
 
+        <ListView ItemsSource="{Binding Helbeds}" x:Name="HelbedListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Text="Nesquik"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                BackgroundColor="AliceBlue"
+                TranslationY="-50"
+                Clicked="OnButtonClickedCereal"
+                FontSize="23"
+                TextColor="Black"
+                WidthRequest="190"
+                HeightRequest="70"
+                Grid.Row="1" />
     </Grid>
-
 </ContentPage>

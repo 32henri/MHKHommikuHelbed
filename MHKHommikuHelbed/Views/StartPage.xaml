@@ -5,7 +5,61 @@
              Title="StartPage">
 
 
-    <Grid 
-        
-        />
+    <Grid>
+        <!--background Image-->
+        <Image 
+            x:Name="BackgroundImage"
+            Source="tuolit.png"
+            Aspect="AspectFit"
+            BackgroundColor="Transparent"/>
+        <!--cereal boxes-->
+        <Image 
+            x:Name="cinimini"
+            Source="cinimini.png"
+            WidthRequest="150"
+            HeightRequest="150"
+            TranslationY="200"/>
+        <Image 
+            x:Name="corn"
+            Source="corn.png"
+            WidthRequest="150"
+            HeightRequest="150"
+            TranslationY="200"/>
+        <Image 
+            x:Name="kitkat"
+            Source="kit.png"
+            WidthRequest="150"
+            HeightRequest="150"
+            TranslationY="200"/>
+        <Image 
+            x:Name="nesquik"
+            Source="nesquik.png"
+            WidthRequest="150"
+            HeightRequest="150"
+            TranslationY="200"/>
+        <Image 
+            x:Name="ohosaatana"
+            Source="oho.png"
+            WidthRequest="150"
+            HeightRequest="150"
+            TranslationY="200"
+            TranslationX="200"/>
+        <Image 
+            x:Name="oreo"
+            Source="oreo.png"
+            WidthRequest="150"
+            HeightRequest="150"/>
+
+        <!--button-->
+        <Button
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TranslationX="0"
+            TranslationY="400"
+            HeightRequest="70"
+            WidthRequest="200"
+            Text="Vaata Lähemalt"
+            FontSize="23"
+            Clicked="OnButtonClicked"/>
+    </Grid>
 </ContentPage>

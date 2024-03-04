@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sf3lUV7sTAEXgvaoCGoqvKumdsftNKU4Ks3z80Gpro/qCp3hfvgkcCnmMILdiiotlh1kgWiKCaain12mnv+B0Q==",
+  "dgSpecHash": "6XTOhGRJttWD3BVkQfmNLTdie2cYaVBp8HSTMJR/4a8Oft//Y/wEuDdsOKurnEdKm491v4Wnt4Nu7/PU/sVi9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\Source\\Repos\\MHKHommikuHelbedMarken\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj",
+  "projectFilePath": "C:\\Users\\opilane\\Source\\Repos\\MHKHommikuHelbed\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\opilane\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

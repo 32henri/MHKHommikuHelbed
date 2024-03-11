@@ -34,7 +34,6 @@ public partial class MainPage : ContentPage
         var nesPage = new NesPage();
         await Navigation.PushAsync(nesPage);
     }
-
     private async void Kit_Clicked(object sender, EventArgs e)
     {
         var kitPage = new KitPage();

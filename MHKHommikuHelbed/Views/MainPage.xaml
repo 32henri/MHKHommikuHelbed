@@ -13,66 +13,40 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Button
-            Text="Ciniminis"
-            HorizontalOptions="Center"
-            Margin="0,12,0,6"
-            Grid.Row="0"
-            Clicked="Cini_Clicked"
-            BackgroundColor="White"
-            TextColor="Black"
-            CornerRadius="10"
-            Padding="12,6"
-            FontSize="16"
-            FontFamily="Segoe UI"
-            BorderWidth="1"
-            BorderColor="Black"
-            HeightRequest="50" />
-        <Button
-            Text="Nesquik"
-            HorizontalOptions="Center"
-            Margin="0,12,0,6"
-            Grid.Row="1"
-            Clicked="Nes_Clicked"
-            BackgroundColor="White"
-            TextColor="Black"
-            CornerRadius="10"
-            Padding="12,6"
-            FontSize="16"
-            FontFamily="Segoe UI"
-            BorderWidth="1"
-            BorderColor="Black"
-            HeightRequest="50" />
-        <Button
-            Text="CornFlakes"
-            HorizontalOptions="Center"
-            Margin="0,12,0,6"
-            Grid.Row="2"
-            Clicked="Corn_Clicked"
-            BackgroundColor="White"
-            TextColor="Black"
-            CornerRadius="10"
-            Padding="12,6"
-            FontSize="16"
-            FontFamily="Segoe UI"
-            BorderWidth="1"
-            BorderColor="Black"
-            HeightRequest="50" />
-        <Button
-            Text="KitKat"
-            HorizontalOptions="Center"
-            Margin="0,12,0,6"
-            Grid.Row="3"
-            Clicked="Kit_Clicked"
-            BackgroundColor="White"
-            TextColor="Black"
-            CornerRadius="10"
-            Padding="12,6"
-            FontSize="16"
-            FontFamily="Segoe UI"
-            BorderWidth="1"
-            BorderColor="Black"
-            HeightRequest="50" />
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0">
+            <ImageButton Source="cinipng.png"
+                    Clicked="Cini_Clicked"
+                    WidthRequest="200" HeightRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1">
+            <ImageButton Source="nesquik.png"
+                    Clicked="Nes_Clicked"
+                    WidthRequest="200" HeightRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </StackLayout>
+
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="2">
+            <ImageButton Source="corn.png"
+                    Clicked="Corn_Clicked"
+                    WidthRequest="200" HeightRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </StackLayout>
+
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="3">
+            <ImageButton Source="kit.png"
+                    Clicked="Kit_Clicked"
+                    WidthRequest="200" HeightRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </StackLayout>
+
 
     </Grid>
 </ContentPage>

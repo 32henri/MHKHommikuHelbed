@@ -2,11 +2,19 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Views.NesPage"
-             Title="NesPage">
-    <VerticalStackLayout>
-        <Label 
+             Title="NesquikPage">
+    <Label 
             Text="Nesquik!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-    </VerticalStackLayout>
+        <Grid>
+            <Image
+        Source="cinipng.png"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        WidthRequest="150"
+        HeightRequest="150"
+        TranslationX="-156"
+        TranslationY="-300"/>
+        </Grid>
 </ContentPage>

@@ -14,33 +14,65 @@
         </Grid.ColumnDefinitions>
 
         <Button
-            Style="{StaticResource ButtonStyle}"
-            Text="CiniMinis"
+            Text="Ciniminis"
             HorizontalOptions="Center"
             Margin="0,12,0,6"
             Grid.Row="0"
-            Clicked="Cini_Clicked" />
+            Clicked="Cini_Clicked"
+            BackgroundColor="White"
+            TextColor="Black"
+            CornerRadius="10"
+            Padding="12,6"
+            FontSize="16"
+            FontFamily="Segoe UI"
+            BorderWidth="1"
+            BorderColor="Black"
+            HeightRequest="50" />
         <Button
-            Style="{StaticResource ButtonStyle}"
             Text="Nesquik"
             HorizontalOptions="Center"
             Margin="0,12,0,6"
             Grid.Row="1"
-            Clicked="Nes_Clicked" />
+            Clicked="Nes_Clicked"
+            BackgroundColor="White"
+            TextColor="Black"
+            CornerRadius="10"
+            Padding="12,6"
+            FontSize="16"
+            FontFamily="Segoe UI"
+            BorderWidth="1"
+            BorderColor="Black"
+            HeightRequest="50" />
         <Button
-            Style="{StaticResource ButtonStyle}"
             Text="CornFlakes"
             HorizontalOptions="Center"
             Margin="0,12,0,6"
             Grid.Row="2"
-            Clicked="Corn_Clicked" />
+            Clicked="Corn_Clicked"
+            BackgroundColor="White"
+            TextColor="Black"
+            CornerRadius="10"
+            Padding="12,6"
+            FontSize="16"
+            FontFamily="Segoe UI"
+            BorderWidth="1"
+            BorderColor="Black"
+            HeightRequest="50" />
         <Button
-            Style="{StaticResource ButtonStyle}"
             Text="KitKat"
             HorizontalOptions="Center"
             Margin="0,12,0,6"
             Grid.Row="3"
-            Clicked="Kit_Clicked" />
+            Clicked="Kit_Clicked"
+            BackgroundColor="White"
+            TextColor="Black"
+            CornerRadius="10"
+            Padding="12,6"
+            FontSize="16"
+            FontFamily="Segoe UI"
+            BorderWidth="1"
+            BorderColor="Black"
+            HeightRequest="50" />
 
     </Grid>
 </ContentPage>

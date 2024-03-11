@@ -2,23 +2,19 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Views.CornPage"
-             Title="CornPage">
-    <VerticalStackLayout>
-        <Label 
+             Title="CornFlakesPage">
+    <Label 
             Text="CornFlakes!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Grid>
             <Image
-                x:Name="cinimini"
-                Opacity="0"
-                Source="cinipng.png"
-                VerticalOptions="Start"
-                HorizontalOptions="End"
-                TranslationX="100"
-                TranslationY="-72"
-                WidthRequest="200"
-                HeightRequest="200"/>
+        Source="cinipng.png"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        WidthRequest="150"
+        HeightRequest="150"
+        TranslationX="-156"
+        TranslationY="-300"/>
         </Grid>
-    </VerticalStackLayout>
 </ContentPage>

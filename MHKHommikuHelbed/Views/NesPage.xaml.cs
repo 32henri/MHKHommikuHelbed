@@ -11,6 +11,5 @@ public partial class NesPage : ContentPage
     {
         await Navigation.PopAsync();
 
-
     }
 }

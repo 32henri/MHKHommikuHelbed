@@ -25,12 +25,14 @@ public partial class MainPage : ContentPage
 
     async void Cini_Clicked(System.Object sender, System.EventArgs e)
     {
-        await Navigation.PushModalAsync(new CiniPage());
+        var ciniPage = new CiniPage();
+        await Navigation.PushAsync(ciniPage);
     }
 
     async void Nes_Clicked(System.Object sender, System.EventArgs e)
     {
-        await Navigation.PushModalAsync(new NesPage());
+        var nesPage = new NesPage();
+        await Navigation.PushAsync(nesPage);
     }
 
     private async void Kit_Clicked(object sender, EventArgs e)
@@ -41,7 +43,8 @@ public partial class MainPage : ContentPage
 
     async void Corn_Clicked(System.Object sender, System.EventArgs e)
     {
-        await Navigation.PushModalAsync(new CornPage());
+        var cornPage = new CornPage();
+        await Navigation.PushAsync(cornPage);
     }
 
 }

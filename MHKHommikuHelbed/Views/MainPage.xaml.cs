@@ -1,5 +1,6 @@
 ﻿using MHKHommikuHelbed.models;
 using Services;
+using System.Numerics;
 using Views;
 
 namespace MHKHommikuHelbed;
@@ -8,31 +9,40 @@ public partial class MainPage : ContentPage
 {
 
     public List<Helbed> Helbeds { get; set; }
+    public KitPage KitPage { get; set; }
 
     public MainPage()
 	{
 		InitializeComponent();
+        KitPage = new KitPage();
         Helbeds = HelbedService.GetAllHelbed();
-        HelbedListView.ItemsSource = Helbeds;
     }
 
     private void GetAllHelbed_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
 
     }
-    async void GridArea_Tapped(System.Object sender, System.EventArgs e)
-    {
 
-    }
-    private void Helbed_Clicked(System.Object sender, System.EventArgs e)
+    async void Cini_Clicked(System.Object sender, System.EventArgs e)
     {
-
+        await Navigation.PushModalAsync(new CiniPage());
     }
 
-    private async void OnButtonClickedCereal(object sender, EventArgs e)
-
+    async void Nes_Clicked(System.Object sender, System.EventArgs e)
     {
-        await Navigation.PushAsync(new CerealInfo());
+        await Navigation.PushModalAsync(new NesPage());
     }
+
+    private async void Kit_Clicked(object sender, EventArgs e)
+    {
+        var kitPage = new KitPage();
+        await Navigation.PushAsync(kitPage);
+    }
+
+    async void Corn_Clicked(System.Object sender, System.EventArgs e)
+    {
+        await Navigation.PushModalAsync(new CornPage());
+    }
+
 }
 

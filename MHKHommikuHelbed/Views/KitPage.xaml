@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Views.KitPage"
+             Title="KitPage">
+    <Label 
+            Text="KitKat!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Grid>
+            <Image
+                Source="cinipng.png"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                WidthRequest="150"
+                HeightRequest="150"
+                TranslationX="-156"
+                TranslationY="-300"/>
+        </Grid>
+</ContentPage>

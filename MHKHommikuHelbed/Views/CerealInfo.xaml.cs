@@ -5,7 +5,7 @@ namespace Views;
 public partial class CerealInfo : ContentPage
 {
 
-    public CerealInfo()
+    public CerealInfo(Helbed helbed)
 	{
 		InitializeComponent();
       

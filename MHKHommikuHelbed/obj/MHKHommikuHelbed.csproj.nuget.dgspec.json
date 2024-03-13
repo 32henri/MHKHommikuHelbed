@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbedhe\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj": {}
+    "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbedsssss\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbedhe\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj": {
+    "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbedsssss\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbedhe\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbedsssss\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj",
         "projectName": "MHKHommikuHelbed",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbedhe\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj",
+        "projectPath": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbedsssss\\MHKHommikuHelbed\\MHKHommikuHelbed.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbedhe\\MHKHommikuHelbed\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\source\\repos\\MHKHommikuHelbedsssss\\MHKHommikuHelbed\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

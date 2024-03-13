@@ -5,23 +5,51 @@
              Title="StartPage">
 
     <Grid>
-        
+
+        <Image
+        x:Name="backgroundImage"
+        Source="tuolit.png"
+        Aspect="AspectFit"
+        BackgroundColor="Black"/>
         <!--Cereal images-->
         <Image
             Source="cinipng.png"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"
-            WidthRequest="150"
-            HeightRequest="150"
-            TranslationX="-156"
-            TranslationY="-300"/>
-        
-        <!--Background image-->
+            WidthRequest="80"
+            HeightRequest="80"
+            TranslationY="-70"
+            TranslationX="5"/>
         <Image
-        x:Name="backgroundImage"
-        Source="bowlofmilk.png"
-        Aspect="AspectFill"
-        HorizontalOptions="Start"/>
+            Source="corn.png"
+            WidthRequest="70"
+            HeightRequest="70"
+            TranslationY="30"
+            TranslationX="-185"/>
+        <Image
+            Source="kit.png"
+            WidthRequest="110"
+            HeightRequest="110"
+            TranslationY="26"
+            TranslationX="-100"/>
+        <Image
+            Source="nesquik.png"
+            WidthRequest="90"
+            HeightRequest="90"
+            TranslationY="30"
+            TranslationX="195"/>
+        <Image
+            Source="oho.png"
+            WidthRequest="80"
+            HeightRequest="80"
+            TranslationY="26"
+            TranslationX="108"/>
+
+        <Image
+            Source="oreo.png"
+            WidthRequest="75"
+            HeightRequest="75"
+            TranslationY="35"
+            TranslationX="3"/>
+        <!--Background image-->
         
         <!--button-->
         <Button 

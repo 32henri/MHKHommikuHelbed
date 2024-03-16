@@ -9,12 +9,10 @@ public partial class MainPage : ContentPage
 {
 
     public List<Helbed> Helbeds { get; set; }
-    public KitPage KitPage { get; set; }
 
     public MainPage()
 	{
-		InitializeComponent();
-        KitPage = new KitPage();
+        InitializeComponent();
         Helbeds = HelbedService.GetAllHelbed();
     }
 

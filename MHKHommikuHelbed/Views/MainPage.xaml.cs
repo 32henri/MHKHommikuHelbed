@@ -1,4 +1,5 @@
 ﻿namespace MHKHommikuHelbed;
+
 using Views;
 
 public partial class MainPage : ContentPage
@@ -7,6 +8,7 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
+        kukkumine();
     }
 
     private void GetAllHelbed_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -36,5 +38,35 @@ public partial class MainPage : ContentPage
         var cornPage = new CornPage();
         await Navigation.PushAsync(cornPage);
     }
+
+    private async Task kukkumine()
+    {
+        while (true)
+        {
+            var parentAnimation = new Animation();
+            var moveDownAnimation = new Animation(v => lusikaskukub.TranslationY = v, -lusikaskukub.Height, 1200);
+
+            parentAnimation.Add(0, 1, moveDownAnimation);
+
+            parentAnimation.Commit(lusikaskukub, "kukkumine", length: 300, repeat: () => true);
+
+            await Task.Delay(4000); // Wait for the animation to finish before restarting
+        }
+    }
+    private async Task kukkumine1()
+    {
+        while (true)
+        {
+            var parentAnimation = new Animation();
+            var moveDownAnimation = new Animation(v => lusikaskukub.TranslationY = v, -lusikaskukub.Height, 1200);
+
+            parentAnimation.Add(0, 1, moveDownAnimation);
+
+            parentAnimation.Commit(lusikaskukub, "kukkumine", length: 200, repeat: () => true);
+
+            await Task.Delay(4000); // Wait for the animation to finish before restarting
+        }
+    }
 }
+
 

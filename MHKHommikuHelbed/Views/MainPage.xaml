@@ -14,9 +14,21 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
+        <Image x:Name="lusikaskukub"
+               Source="lusikas.png"
+               HeightRequest="200"
+               Aspect="AspectFill"/>
+
+        <Image x:Name="lusikaskukub1"
+               Source="lusikas.png"
+               HeightRequest="200"
+               Aspect="AspectFill"/>
+
+
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0">
             <ImageButton Source="cinipng.png"
                     Clicked="Cini_Clicked"
+                    BackgroundColor="Transparent"
                     WidthRequest="200" HeightRequest="200"
                     HorizontalOptions="Center"
                     VerticalOptions="Center" />
@@ -25,6 +37,7 @@
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1">
             <ImageButton Source="nesquik.png"
                     Clicked="Nes_Clicked"
+                    BackgroundColor="Transparent"
                     WidthRequest="280" HeightRequest="200"
                     HorizontalOptions="Center"
                     VerticalOptions="Center" />
@@ -34,6 +47,7 @@
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="2">
             <ImageButton Source="corn.png"
                     Clicked="Corn_Clicked"
+                    BackgroundColor="Transparent"
                     WidthRequest="200" HeightRequest="200"
                     HorizontalOptions="Center"
                     VerticalOptions="Center" />
@@ -43,6 +57,7 @@
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="3">
             <ImageButton Source="kit.png"
                     Clicked="Kit_Clicked"
+                    BackgroundColor="Transparent"
                     WidthRequest="280" HeightRequest="200"
                     HorizontalOptions="Center"
                     VerticalOptions="Center" />

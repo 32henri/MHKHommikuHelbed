@@ -16,7 +16,7 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.mhkhommikuhelbed</ApplicationId>
-		<ApplicationIdGuid>c858c65e-92bb-47f2-be2d-0f5ee64cc131</ApplicationIdGuid>
+		<ApplicationIdGuid>f598ee09-de94-4841-8bb6-7c8ca58853a0</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -50,25 +50,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiImage Remove="Resources\Images\cinipng.png" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <EmbeddedResource Include="Resources\Images\cinipng.png" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <PackageReference Include="Microsoft.UI.Xaml" Version="2.8.2" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Services\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="Views\CerealInfo.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Views\CiniPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -11,6 +11,5 @@ public partial class CiniPage : ContentPage
     {
         await Navigation.PopAsync();
 
-
     }
 }

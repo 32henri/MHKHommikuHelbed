@@ -8,69 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MHKHommikuHelbed
-build_property.ProjectDir = D:\repos\MHKHommikuHelbed\MHKHommikuHelbed\
+build_property.ProjectDir = C:\Users\opilane\source\repos\Uus kaust\MHKHommikuHelbed\MHKHommikuHelbed\
 
-[D:/repos/MHKHommikuHelbed/MHKHommikuHelbed/App.xaml]
+[C:/Users/opilane/source/repos/Uus kaust/MHKHommikuHelbed/MHKHommikuHelbed/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/repos/MHKHommikuHelbed/MHKHommikuHelbed/AppShell.xaml]
+[C:/Users/opilane/source/repos/Uus kaust/MHKHommikuHelbed/MHKHommikuHelbed/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/repos/MHKHommikuHelbed/MHKHommikuHelbed/Resources/Styles/Colors.xaml]
+[C:/Users/opilane/source/repos/Uus kaust/MHKHommikuHelbed/MHKHommikuHelbed/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/repos/MHKHommikuHelbed/MHKHommikuHelbed/Resources/Styles/Styles.xaml]
+[C:/Users/opilane/source/repos/Uus kaust/MHKHommikuHelbed/MHKHommikuHelbed/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/repos/MHKHommikuHelbed/MHKHommikuHelbed/Views/CerealInfo.xaml]
+[C:/Users/opilane/source/repos/Uus kaust/MHKHommikuHelbed/MHKHommikuHelbed/Views/CerealInfo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.Views.CerealInfo.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CerealInfo.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CerealInfo.xaml
 
-[D:/repos/MHKHommikuHelbed/MHKHommikuHelbed/Views/CiniPage.xaml]
+[C:/Users/opilane/source/repos/Uus kaust/MHKHommikuHelbed/MHKHommikuHelbed/Views/CiniPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.Views.CiniPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CiniPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CiniPage.xaml
 
-[D:/repos/MHKHommikuHelbed/MHKHommikuHelbed/Views/CornPage.xaml]
+[C:/Users/opilane/source/repos/Uus kaust/MHKHommikuHelbed/MHKHommikuHelbed/Views/CornPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.Views.CornPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CornPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CornPage.xaml
 
-[D:/repos/MHKHommikuHelbed/MHKHommikuHelbed/Views/KitPage.xaml]
+[C:/Users/opilane/source/repos/Uus kaust/MHKHommikuHelbed/MHKHommikuHelbed/Views/KitPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.Views.KitPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\KitPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\KitPage.xaml
 
-[D:/repos/MHKHommikuHelbed/MHKHommikuHelbed/Views/MainPage.xaml]
+[C:/Users/opilane/source/repos/Uus kaust/MHKHommikuHelbed/MHKHommikuHelbed/Views/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.Views.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
 
-[D:/repos/MHKHommikuHelbed/MHKHommikuHelbed/Views/NesPage.xaml]
+[C:/Users/opilane/source/repos/Uus kaust/MHKHommikuHelbed/MHKHommikuHelbed/Views/NesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.Views.NesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\NesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\NesPage.xaml
 
-[D:/repos/MHKHommikuHelbed/MHKHommikuHelbed/Views/StartPage.xaml]
+[C:/Users/opilane/source/repos/Uus kaust/MHKHommikuHelbed/MHKHommikuHelbed/Views/StartPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MHKHommikuHelbed.Views.StartPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\StartPage.xaml

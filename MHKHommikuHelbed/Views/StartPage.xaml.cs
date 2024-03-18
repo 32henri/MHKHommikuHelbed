@@ -1,5 +1,4 @@
 using MHKHommikuHelbed;
-
 namespace Views;
 
 public partial class StartPage : ContentPage
@@ -8,7 +7,6 @@ public partial class StartPage : ContentPage
 	{
 		InitializeComponent();
 	}
-
     private async void OnButtonClicked(object sender, EventArgs e)
 
     {

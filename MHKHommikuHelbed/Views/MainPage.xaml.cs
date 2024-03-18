@@ -1,19 +1,12 @@
-﻿using MHKHommikuHelbed.models;
-using Services;
-using System.Numerics;
+﻿namespace MHKHommikuHelbed;
 using Views;
-
-namespace MHKHommikuHelbed;
 
 public partial class MainPage : ContentPage
 {
 
-    public List<Helbed> Helbeds { get; set; }
-
-    public MainPage()
+	public MainPage()
 	{
-        InitializeComponent();
-        Helbeds = HelbedService.GetAllHelbed();
+		InitializeComponent();
     }
 
     private void GetAllHelbed_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -43,6 +36,5 @@ public partial class MainPage : ContentPage
         var cornPage = new CornPage();
         await Navigation.PushAsync(cornPage);
     }
-
 }
 

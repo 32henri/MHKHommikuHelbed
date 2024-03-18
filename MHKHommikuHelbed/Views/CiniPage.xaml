@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Views.CiniPage"
-             Title="CiniminisPage">
+             Title="CiniPage">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -39,7 +40,7 @@
                        TranslationX="-0"
                        TranslationY="320"
                        Margin="10"/>
-                <Label Text="Ciniminis on kaneelimaitselised maiused, mis rõõmustavad igal ajal päeva jooksul oma magusa ja vürtsika maitsega."
+                <Label Text="Ciniminis on kaneelimaitselised maiused, mis rÃµÃµmustavad igal ajal pÃ¤eva jooksul oma magusa ja vÃ¼rtsika maitsega."
                        TranslationX="-0"
                        TranslationY="300"
                        Margin="10"/>

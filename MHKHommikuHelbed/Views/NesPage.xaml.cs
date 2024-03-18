@@ -6,7 +6,6 @@ public partial class NesPage : ContentPage
 	{
 		InitializeComponent();
 	}
-
     async void BackButton_Clicked(object sender, EventArgs e)
     {
         await Navigation.PopAsync();

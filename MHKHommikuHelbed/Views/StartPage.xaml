@@ -3,7 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Views.StartPage"
              Title="StartPage">
-
     <Grid>
 
         <Image
@@ -50,7 +49,7 @@
             TranslationY="35"
             TranslationX="3"/>
         <!--Background image-->
-        
+
         <!--button-->
         <Button 
             Text="Vaata lähemalt"

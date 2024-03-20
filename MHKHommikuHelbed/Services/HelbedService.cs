@@ -11,8 +11,21 @@ namespace Services
         {
             new()
             {
-                Name = "Name",
-                PFP = "image.png",
+                Name = "Nesquik",
+                PFP = "nesquik.png",
+                Description = "Description",
+                Images = new()
+                {
+                    "cinipng.png",
+                    "kit.png",
+                    "Image3.png",
+                }
+            },
+
+            new()
+            {
+                Name = "CiniMinis",
+                PFP = "cinipng.png",
                 Description = "Description",
                 Images = new()
                 {
@@ -20,18 +33,38 @@ namespace Services
                     "Image2.png",
                     "Image3.png",
                 }
-            }
+            },
+
+            new()
+            {
+                Name = "CornFlakes",
+                PFP = "corn.png",
+                Description = "Description",
+                Images = new()
+                {
+                    "Image1.png",
+                    "Image2.png",
+                    "Image3.png",
+                }
+            },
+
+            new()
+            {
+                Name = "KitKat",
+                PFP = "kit.png",
+                Description = "Description",
+                Images = new()
+                {
+                    "Image1.png",
+                    "Image2.png",
+                    "Image3.png",
+                }
+            },
         };
 
-        public static List<Helbed> GetFeaturedPlanets()
-        {
-            var random = new Random();
-            var ranomizedPlanets = helbeds.OrderBy(item => random.Next());
 
-            return ranomizedPlanets.Take(2).ToList();
-        }
 
-        public static List<Helbed> GetAllPlanets()
+        public static List<Helbed> GetAllHelbed()
             => helbeds;
 
     }

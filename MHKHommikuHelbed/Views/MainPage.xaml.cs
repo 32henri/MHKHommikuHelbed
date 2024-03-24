@@ -43,7 +43,7 @@ public partial class MainPage : ContentPage
     {
         while (true)
         {
-            // all down animations
+
             var parentAnimation = new Animation();
             var moveDownAnimation = new Animation(v => lusikaskukub.TranslationY = v, -lusikaskukub.Height, 0);
             var moveDownAnimation1 = new Animation(v => lusikaskukub1.TranslationY = v, -lusikaskukub1.Height, 0);
@@ -67,7 +67,7 @@ public partial class MainPage : ContentPage
             parentAnimation.Commit(lusikaskukub5, "kukkumine", length: 3000, repeat: () => true);
 
 
-            await Task.Delay(3000); // Wait for the full animation cycle to complete
+            await Task.Delay(3000); 
         }
     }
 

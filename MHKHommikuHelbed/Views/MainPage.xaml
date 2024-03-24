@@ -32,12 +32,7 @@
         <Image x:Name="lusikaskukub4" Source="lusikas.png" Grid.Row="4" Aspect="AspectFill"/>
         <Image x:Name="lusikaskukub5" Source="lusikas.png" Grid.Row="5" Aspect="AspectFill"/>
 
-        <Image x:Name="lusikaskukub11" Source="lusikas.png" Grid.Row="0" Aspect="AspectFill"/>
-        <Image x:Name="lusikaskukub22" Source="lusikas.png" Grid.Row="1" Aspect="AspectFill"/>
-        <Image x:Name="lusikaskukub33" Source="lusikas.png" Grid.Row="2" Aspect="AspectFill"/>
-        <Image x:Name="lusikaskukub44" Source="lusikas.png" Grid.Row="3" Aspect="AspectFill"/>
-        <Image x:Name="lusikaskukub55" Source="lusikas.png" Grid.Row="4" Aspect="AspectFill"/>
-        <Image x:Name="lusikaskukub66" Source="lusikas.png" Grid.Row="5" Aspect="AspectFill"/>
+
 
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0">
             <ImageButton Source="cinipng.png"

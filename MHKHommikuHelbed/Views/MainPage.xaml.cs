@@ -66,63 +66,12 @@ public partial class MainPage : ContentPage
             parentAnimation.Commit(lusikaskukub4, "kukkumine", length: 3000, repeat: () => true);
             parentAnimation.Commit(lusikaskukub5, "kukkumine", length: 3000, repeat: () => true);
 
-            // all up animations
-            var parentAnimation10 = new Animation();
-            var moveDownAnimation11 = new Animation(v => lusikaskukub11.TranslationY = v, -lusikaskukub11.Height, 0);
-            var moveDownAnimation22 = new Animation(v => lusikaskukub22.TranslationY = v, -lusikaskukub22.Height, 0);
-            var moveDownAnimation33 = new Animation(v => lusikaskukub33.TranslationY = v, -lusikaskukub33.Height, 0);
-            var moveDownAnimation44 = new Animation(v => lusikaskukub44.TranslationY = v, -lusikaskukub44.Height, 0);
-            var moveDownAnimation55 = new Animation(v => lusikaskukub55.TranslationY = v, -lusikaskukub55.Height, 0);
-            var moveDownAnimation66 = new Animation(v => lusikaskukub66.TranslationY = v, -lusikaskukub66.Height, 0);
-
-            parentAnimation10.Add(0, 1, moveDownAnimation11);
-            parentAnimation10.Add(0, 1, moveDownAnimation22);
-            parentAnimation10.Add(0, 1, moveDownAnimation33);
-            parentAnimation10.Add(0, 1, moveDownAnimation44);
-            parentAnimation10.Add(0, 1, moveDownAnimation55);
-            parentAnimation10.Add(0, 1, moveDownAnimation66);
-
-            parentAnimation10.Commit(lusikaskukub11, "kukkumine", length: 3000, repeat: () => true);
-            parentAnimation10.Commit(lusikaskukub22, "kukkumine", length: 3000, repeat: () => true);
-            parentAnimation10.Commit(lusikaskukub33, "kukkumine", length: 3000, repeat: () => true);
-            parentAnimation10.Commit(lusikaskukub44, "kukkumine", length: 3000, repeat: () => true);
-            parentAnimation10.Commit(lusikaskukub55, "kukkumine", length: 3000, repeat: () => true);
-            parentAnimation10.Commit(lusikaskukub66, "kukkumine", length: 3000, repeat: () => true);
 
             await Task.Delay(3000); // Wait for the full animation cycle to complete
         }
     }
 
 
-    private async Task kukkumine1()
-    {
-        while (true)
-        {
-            var parentAnimation = new Animation();
-            var moveDownAnimation11 = new Animation(v => lusikaskukub11.TranslationY = v, -lusikaskukub11.Height, -200);
-            var moveDownAnimation22 = new Animation(v => lusikaskukub22.TranslationY = v, -lusikaskukub22.Height, -200);
-            var moveDownAnimation33 = new Animation(v => lusikaskukub33.TranslationY = v, -lusikaskukub33.Height, -200);
-            var moveDownAnimation44 = new Animation(v => lusikaskukub44.TranslationY = v, -lusikaskukub44.Height, -200);
-            var moveDownAnimation55 = new Animation(v => lusikaskukub55.TranslationY = v, -lusikaskukub55.Height, -200);
-            var moveDownAnimation66 = new Animation(v => lusikaskukub66.TranslationY = v, -lusikaskukub66.Height, -200);
-
-            parentAnimation.Add(0, 1, moveDownAnimation11);
-            parentAnimation.Add(0, 1, moveDownAnimation22);
-            parentAnimation.Add(0, 1, moveDownAnimation33);
-            parentAnimation.Add(0, 1, moveDownAnimation44);
-            parentAnimation.Add(0, 1, moveDownAnimation55);
-            parentAnimation.Add(0, 1, moveDownAnimation66);
-
-            parentAnimation.Commit(lusikaskukub11, "kukkumine", length: 4000, repeat: () => true);
-            parentAnimation.Commit(lusikaskukub22, "kukkumine", length: 4100, repeat: () => true);
-            parentAnimation.Commit(lusikaskukub33, "kukkumine", length: 4200, repeat: () => true);
-            parentAnimation.Commit(lusikaskukub44, "kukkumine", length: 4300, repeat: () => true);
-            parentAnimation.Commit(lusikaskukub55, "kukkumine", length: 4400, repeat: () => true);
-            parentAnimation.Commit(lusikaskukub66, "kukkumine", length: 4500, repeat: () => true);
-
-            await Task.Delay(4000);
-        }
-    }
 }
 
 

@@ -10,6 +10,9 @@ public partial class StartPage : ContentPage
     private async void OnButtonClicked(object sender, EventArgs e)
 
     {
+
         await Navigation.PushAsync(new MainPage());
     }
+
+
 }

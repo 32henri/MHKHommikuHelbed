@@ -50,17 +50,27 @@
             TranslationX="3"/>
         <!--Background image-->
 
+        <Button
+           Text="Vaata lähemalt"
+           BackgroundColor="Transparent"
+           VerticalOptions="End"
+           HorizontalOptions="Center"
+           Clicked="OnButtonClicked"
+           TranslationY="-140"
+           FontSize="18"
+           TextColor="White"/>
         <!--button-->
-        <Button 
-            Text="Vaata lähemalt"
+        <ImageButton 
+            Source="lusikas1.png"
             VerticalOptions="End"
             HorizontalOptions="Center"
-            BackgroundColor="AliceBlue"
+            BackgroundColor="Transparent"
             TranslationY="-50"
             Clicked="OnButtonClicked"
-            FontSize="23"
-            TextColor="Black"
-            WidthRequest="190"
-            HeightRequest="70"/>
+            WidthRequest="220"
+            HeightRequest="100"
+            Padding="0"
+            Margin="0">
+        </ImageButton>
     </Grid>
 </ContentPage>

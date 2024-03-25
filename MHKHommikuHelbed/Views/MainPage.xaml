@@ -1,0 +1,74 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MHKHommikuHelbed.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Image x:Name="lusikaskukub" Source="lusikas.png" Grid.Row="0" Aspect="AspectFill"/>
+        <Image x:Name="lusikaskukub1" Source="lusikas.png" Grid.Row="1" Aspect="AspectFill"/>
+        <Image x:Name="lusikaskukub2" Source="lusikas.png" Grid.Row="2" Aspect="AspectFill"/>
+        <Image x:Name="lusikaskukub3" Source="lusikas.png" Grid.Row="3" Aspect="AspectFill"/>
+        <Image x:Name="lusikaskukub4" Source="lusikas.png" Grid.Row="4" Aspect="AspectFill"/>
+        <Image x:Name="lusikaskukub5" Source="lusikas.png" Grid.Row="5" Aspect="AspectFill"/>
+
+
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0">
+            <ImageButton Source="cinipng.png"
+                    Clicked="Cini_Clicked"
+                    BackgroundColor="Transparent"
+                    WidthRequest="200" HeightRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1">
+            <ImageButton Source="nesquik.png"
+                    Clicked="Nes_Clicked"
+                    BackgroundColor="Transparent"
+                    WidthRequest="280" HeightRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="2">
+            <ImageButton Source="corn.png"
+                    Clicked="Corn_Clicked"
+                    BackgroundColor="Transparent"
+                    WidthRequest="200" HeightRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="3">
+            <ImageButton Source="kit.png"
+                    Clicked="Kit_Clicked"
+                    BackgroundColor="Transparent"
+                    WidthRequest="280" HeightRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

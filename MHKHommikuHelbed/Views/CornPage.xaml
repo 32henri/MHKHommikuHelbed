@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Views.CornPage"
+             Title="CornPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label 
+            Text="CornFlakes!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Image
+            Source="corn.png"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            WidthRequest="150"
+            HeightRequest="150"
+            TranslationX="-0"
+            TranslationY="-400"
+            Grid.Row="1"/>
+        <BoxView Grid.Row="2"
+                 Color="Gray"
+                 HeightRequest="3"
+                 HorizontalOptions="Fill"
+                 TranslationX="-200"
+                 TranslationY="-250"/>
+        <BoxView Grid.Row="2"
+                 Color="Gray"
+                 HeightRequest="3"
+                 HorizontalOptions="Fill"
+                 TranslationX="200"
+                 TranslationY="-247"/>
+        <ScrollView Grid.Row="1">
+            <StackLayout>
+                <Label Text="Description:"
+                       FontAttributes="Bold"
+                       TranslationX="-0"
+                       TranslationY="320"
+                       Margin="10"/>
+                <Label Text="Cornflakes on krõbedad teraviljapallid, mida serveeritakse piimaga, pakkudes hommikuti värsket ja tervislikku valikut."
+                       TranslationX="-0"
+                       TranslationY="300"
+                       Margin="10"/>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

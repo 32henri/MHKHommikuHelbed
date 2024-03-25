@@ -9,18 +9,18 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Label 
-            Text="Ciniminis!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image
-            Source="cinipng.png"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"
-            WidthRequest="150"
-            HeightRequest="150"
-            TranslationX="0"
-            TranslationY="-400"
-            Grid.Row="1"/>
+    Source="cinipng.png"
+    VerticalOptions="Center"
+    HorizontalOptions="Center"
+    WidthRequest="200"
+    HeightRequest="200"
+    TranslationX="0"
+    TranslationY="-400"
+    Grid.Row="1" />
+
         <BoxView Grid.Row="2"
                  Color="Gray"
                  HeightRequest="3"
@@ -32,13 +32,25 @@
                  HeightRequest="3"
                  HorizontalOptions="Fill"
                  TranslationX="200"
-                 TranslationY="-247"/>
+                 TranslationY="-250"/>
+        <BoxView Grid.Row="2"
+                 Color="Gray"
+                 HeightRequest="3"
+                 HorizontalOptions="Fill"
+                 TranslationX="-200"
+                 TranslationY="28"/>
+        <BoxView Grid.Row="2"
+                 Color="Gray"
+                 HeightRequest="3"
+                 HorizontalOptions="Fill"
+                 TranslationX="200"
+                 TranslationY="28"/>
         <ScrollView Grid.Row="1">
             <StackLayout>
                 <Label Text="Description:"
                        FontAttributes="Bold"
                        TranslationX="0"
-                       TranslationY="320"
+                       TranslationY="290"
                        Margin="10"/>
                 <Label Text="Cini Minis on Nestlé'i toode ja see koosneb väikestest kaneelimaitselistest hommikuhelvestest. Need on tuntud oma krõmpsuvuse ja magusa maitse poolest ning sageli turundatakse neid kui lastele meeldivat hommikusööki. Pakenditel võib näha erinevaid reklaame ja kujundusi, et meelitada lapsi ja nende vanemaid toodet ostma."
                        TranslationX="0"
@@ -48,16 +60,47 @@
                        TranslationX="0"
                        TranslationY="300"
                        Margin="10"/>
+                <Label Text="Nutrition:"
+                       FontAttributes="Bold"
+                       TranslationX="0"
+                       TranslationY="300"
+                       Margin="10"/>
                 <Label Text="Energia (kalorid): Umbes 400–450 kcal"
                        TranslationX="0"
                        TranslationY="300"
                        Margin="10"/>
-                <!--<Label Text="Energia (kalorid): Umbes 400–450 kcal"/>
-                <Label Text="Süsivesikud: Umbes 80–85 grammi"/>
-                <Label Text="Suhkur: Umbes 25–30 grammi"/>
-                <Label Text="Rasv: Umbes 5–10 grammi, millest küllastunud rasvhapped on umbes 1–2 grammi"/>
-                <Label Text="Valgud: Umbes 7–10 grammi"/>
-                <Label Text="Kiudained: Umbes 3–5 grammi"/>-->
+                <Label Text="Süsivesikud: Umbes 80–85 grammi"
+                       TranslationX="0"
+                       TranslationY="280"
+                       Margin="10"/>
+                <Label Text="Suhkur: Umbes 25–30 grammi"
+                       TranslationX="0"
+                       TranslationY="260"
+                       Margin="10"/>
+                <Label Text="Rasv: Umbes 5–10 grammi, millest küllastunud rasvhapped on umbes 1–2 grammi"
+                       TranslationX="0"
+                       TranslationY="240"
+                       Margin="10"/>
+                <Label Text="Valgud: Umbes 7–10 grammi"
+                       TranslationX="0"
+                       TranslationY="220"
+                       Margin="10"/>
+                <Label Text="Kiudained: Umbes 3–5 grammi"
+                       TranslationX="0"
+                       TranslationY="200"
+                       Margin="10"/>
+                <BoxView Grid.Row="2"
+                 Color="Gray"
+                 HeightRequest="3"
+                 HorizontalOptions="Fill"
+                 TranslationX="-200"
+                 TranslationY="210"/>
+                <BoxView Grid.Row="2"
+                 Color="Gray"
+                 HeightRequest="3"
+                 HorizontalOptions="Fill"
+                 TranslationX="200"
+                 TranslationY="207"/>
             </StackLayout>
         </ScrollView>
     </Grid>
